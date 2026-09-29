@@ -126,3 +126,48 @@ a:visited { color: #800080 !important; }
     background-repeat: no-repeat;
     background-position: center;
 }
+
+/* ============================================
+   书信体样式
+   ============================================ */
+
+.letter {
+    max-width: 680px;
+    margin: 2rem auto;
+    padding: 2rem 2.5rem;
+    background: #FFF8E7;              /* 微微泛黄的信纸色 */
+    border: 2px solid #FFFFFF;
+    border-right-color: #808080;
+    border-bottom-color: #808080;
+    line-height: 2.2;                 /* 行距拉大，像手写的呼吸感 */
+    font-size: 1rem;
+    box-shadow: 4px 4px 0 rgba(0,0,0,0.08);
+}
+
+/* 右对齐的日期和落款 */
+.letter .right {
+    text-align: right;
+    margin: 0.5rem 0;
+}
+
+/* 称呼 */
+.letter .salutation {
+    margin: 1.5rem 0 1rem 0;
+    font-weight: 600;
+}
+
+/* 正文段落：首行缩进两格 */
+.letter p {
+    /* 正文段落 */
+.letter p {
+    margin: 0.8rem 0;
+}
+    margin: 0.8rem 0;
+}
+
+/* 落款 */
+.letter .signature {
+    text-align: right;
+    margin-top: 2rem;
+    font-style: italic;
+}
